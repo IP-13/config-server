@@ -8,7 +8,13 @@ spring:
         - id: booking-system
           uri: lb://booking-system
           predicates:
+            - Path=/admin/**
+              routes:
+        - id: authorization-service
+          uri: lb://authorization-service
+          predicates:
             - Path=/auth/login
+
 eureka:
   client:
     serviceUrl:
