@@ -5,10 +5,10 @@ spring:
         locator:
           lowerCaseServiceId: true
       routes:
-        - id: booking-system
-          uri: lb://booking-system
+        - id: authorization-service
+          uri: lb://authorization-service
           predicates:
-            - Path=/auth/login
+            - Path=/auth/**
 
 eureka:
   client:
