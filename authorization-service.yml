@@ -4,3 +4,8 @@ eureka:
       defaultZone: http://eureka:8761/eureka
   instance:
     preferIpAddress: true
+
+security:
+  secret: s2UowvHf2hU16VQCMvzESEzh+JCg8NN5OL0gqMpglCggh5OKE+lLmIGLSYqTuacu
+  lifeTimeSeconds: 300
+  mega_admin: mega_admin
