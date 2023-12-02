@@ -1,0 +1,3 @@
+auth-service:
+  url: lb://authorization-service
+  timeout: 3000
