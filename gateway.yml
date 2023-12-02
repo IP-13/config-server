@@ -21,3 +21,5 @@ eureka:
   instance:
     preferIpAddress: true
 
+security:
+  secret: s2UowvHf2hU16VQCMvzESEzh+JCg8NN5OL0gqMpglCggh5OKE+lLmIGLSYqTuacu
