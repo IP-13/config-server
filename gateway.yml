@@ -12,7 +12,8 @@ spring:
           filters:
             - name: RoleCheckerFilter
               args:
-                isOpen: true
+                isOpen: false
+                role: ADMIN
 
 eureka:
   client:
