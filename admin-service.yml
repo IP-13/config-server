@@ -1,3 +1,6 @@
+security:
+  secret: s2UowvHf2hU16VQCMvzESEzh+JCg8NN5OL0gqMpglCggh5OKE+lLmIGLSYqTuacu
+
 auth-service:
   url: lb://authorization-service
   timeout: 3000
