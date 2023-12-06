@@ -4,4 +4,4 @@ security:
   mega_admin: mega_admin
 emulate-workload:
   fail-probability:
-    0.25
+    1.0
