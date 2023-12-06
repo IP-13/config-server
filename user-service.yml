@@ -2,3 +2,6 @@ security:
   secret: s2UowvHf2hU16VQCMvzESEzh+JCg8NN5OL0gqMpglCggh5OKE+lLmIGLSYqTuacu
   lifeTimeSeconds: 300
   mega_admin: mega_admin
+emulate-workload:
+  fail-probability:
+    0.25
