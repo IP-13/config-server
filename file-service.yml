@@ -1,6 +1,6 @@
 minio:
   url: http://minio:9000
-  accessKey: secret
-  secretKey: secret
+  accessKey: minio_admin
+  secretKey: minio_admin
 security:
   secret: s2UowvHf2hU16VQCMvzESEzh+JCg8NN5OL0gqMpglCggh5OKE+lLmIGLSYqTuacu
